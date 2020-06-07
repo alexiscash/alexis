@@ -5,6 +5,7 @@ class Alexis
   def initialize
     @alexis = "alexis"
     @swag = 1.0/0.0
+    self.proclaim_swagness
   end
 
   def proclaim_swagness
@@ -13,5 +14,3 @@ class Alexis
 end
 
 alexis = Alexis.new
-
-alexis.proclaim_swagness
