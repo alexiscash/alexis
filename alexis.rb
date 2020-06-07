@@ -4,10 +4,14 @@ class Alexis
 
   def initialize
     @alexis = "alexis"
-    @swag = "infinity"
+    @swag = 1.0/0.0
+  end
+
+  def proclaim_swagness
+    puts("swag on #{@swag}")
   end
 end
 
 alexis = Alexis.new
 
-puts("swag on #{alexis.swag}")
+alexis.proclaim_swagness

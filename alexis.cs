@@ -1,16 +1,20 @@
 using System;
 
-public class Alexis {
-  private const string V = "infinity";
-  public string alexis;
-  public string swag;
-
-    public Alexis() {
+namespace Alexis {
+  class Alexis {
+    public string alexis;
+    public string swag;
+    Alexis() {
       alexis = "alexis";
-      swag = V;
+      swag = "infinity";
+      ProclamSwagness();
     }
+
+    public void ProclamSwagness() {
+      Console.WriteLine("swag on {0}", swag);
+    }
+    public static void Main(string[] args) {
+      Alexis alexis = new Alexis();
+    }
+  }
 }
-
-Alexis alexis = new Alexis();
-
-Console.WriteLine("ayyy  lmao");

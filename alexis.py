@@ -1,8 +1,11 @@
 class Alexis:
   def __init__(self):
     self.alexis = "alexis"
-    self.swag = 'infinity'
+    self.swag = float("inf")
+    self.proclaim_swagness()
 
-alexis = Alexis()
+  def proclaim_swagness(self):
+    print("swag on", str(self.swag) + "inity")
 
-print("swag on", alexis.swag)
+if __name__ == "__main__":
+  alexis = Alexis()
