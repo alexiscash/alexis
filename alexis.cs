@@ -7,10 +7,10 @@ namespace Alexis {
     Alexis() {
       alexis = "alexis";
       swag = "infinity";
-      ProclamSwagness();
+      ProclaimSwagness();
     }
 
-    public void ProclamSwagness() {
+    public void ProclaimSwagness() {
       Console.WriteLine("swag on {0}", swag);
     }
     public static void Main(string[] args) {

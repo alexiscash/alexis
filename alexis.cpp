@@ -2,8 +2,8 @@
 
 class Alexis {
   public:
-    char[] alexis;
-    char[] swag;
+    std::string alexis;
+    std::string swag;
     Alexis() {
       alexis = "alexis";
       swag = "infinity";
@@ -15,7 +15,5 @@ class Alexis {
 }
 
 int main() {
-  Alexis alexis = new Alexis();
-
-  return 0;
+  Alexis alexis;
 }
