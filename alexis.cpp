@@ -1,15 +1,19 @@
 #include <iostream>
 
+using std::string;
+using std::cout;
+using std::endl;
+
 class Alexis {
   public:
-    std::string alexis;
-    std::string swag;
+    string alexis;
+    string swag;
     Alexis() {
       alexis = "alexis";
       swag = "infinity";
       proclaimSwagness();
     }
-    proclaimSwagness() {
+    void proclaimSwagness() {
       cout << "swag on " << swag << endl;
     }
 }
