@@ -1,9 +1,9 @@
 class Alexis {
-  String alexis;
+  String name;
   String swag;
 
     Alexis() {
-    alexis = "alexis";
+    name = "alexis";
     swag = "infinity";
     proclaimSwagness();
   }

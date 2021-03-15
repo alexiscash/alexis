@@ -6,10 +6,10 @@ using std::endl;
 
 class Alexis {
   public:
-    string alexis;
+    string name;
     string swag;
     Alexis() {
-      alexis = "alexis";
+      name = "alexis";
       swag = "infinity";
       proclaimSwagness();
     }

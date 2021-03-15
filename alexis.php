@@ -2,11 +2,11 @@
 
 <?php
 class Alexis {
-  public $alexis;
+  public $name;
   public $swag;
 
   public function __construct() {
-    $alexis = "alexis";
+    $name = "alexis";
     $swag = "infinity";
     proclaimSwagness();
   }

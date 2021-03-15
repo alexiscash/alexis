@@ -1,6 +1,6 @@
 class Alexis:
   def __init__(self):
-    self.alexis = "alexis"
+    self.name = "alexis"
     self.swag = float("inf")
     self.proclaim_swagness()
 
