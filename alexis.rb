@@ -3,7 +3,7 @@ class Alexis
   attr_accessor :alexis, :swag
 
   def initialize
-    @name = "alexis"
+    @name = "alexis" 
     @swag = 1.0/0.0
     self.proclaim_swagness
   end

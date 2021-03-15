@@ -2,7 +2,7 @@ using System;
 
 namespace Alexis {
   class Alexis {
-    public string Name { get; set; };
+    public string Name { get; set; }; 
     public string Swag { get; set; };
 
     public Alexis() {

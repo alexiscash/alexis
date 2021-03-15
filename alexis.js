@@ -1,6 +1,6 @@
 class Alexis {
   constructor() {
-    this.name = "alexis";
+    this.name = "alexis"; 
     this.swag = Infinity;
     this.proclaimSwagness();
   }

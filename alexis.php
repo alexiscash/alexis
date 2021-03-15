@@ -2,7 +2,7 @@
 
 <?php
 class Alexis {
-  public $name;
+  public $name; 
   public $swag;
 
   public function __construct() {

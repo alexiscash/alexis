@@ -3,7 +3,7 @@ class Alexis {
   String swag;
 
     Alexis() {
-    name = "alexis";
+    name = "alexis"; 
     swag = "infinity";
     proclaimSwagness();
   }
